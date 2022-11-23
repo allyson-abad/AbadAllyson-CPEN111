@@ -11,9 +11,9 @@ imshow(fruits2);
 title('Reduced Resolution of Fruits Image');
 imwrite(fruits2,'fruits2.png');                  % Saving the image as fruits2.png
 
-fruits3 = rgb2hsv(fruits);                       % Change the color of the picture to HSV
+fruits3 = rgb2hsv(fruits);                       % Change the color of the picture from RGB to HSV
 subplot(313)                                     % Positioning the image
-imshow(fruits3);                                 % Display converted version (HSV)
+imshow(fruits3);                                 % Display converted color of image
 title('HSV Color of Fruits Image');
 imwrite(fruits3,'fruits3.png');                  % Saving the image as fruits3.png
 
